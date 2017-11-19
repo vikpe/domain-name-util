@@ -10,10 +10,17 @@ npm install domain-name-util
 ```javascript
 import domainNameUtil from 'domain-name-util';
 
-domainNameUtil.getTopLevelDomain('foo.se'); // se
-domainNameUtil.getBaseLevelDomain('foo.se'); // foo
-domainNameUtil.getLength('foo.se'); // 3
-//...
+domainNameUtil.containsAlphabetics('foo.com');  // true
+domainNameUtil.containsNumerics('foo.com');     // false
+domainNameUtil.getBaseLevelDomain('foo.com');   // 'foo'
+domainNameUtil.getDomains('foo.com');           // ['foo', 'com']
+domainNameUtil.getLength('foo.com');            // 3
+domainNameUtil.getTopLevelDomain('foo.com');    // 'com' 
+domainNameUtil.isAlphabetic('foo.com');         // true 
+domainNameUtil.isHyphenated('foo.com');         // false 
+domainNameUtil.isNumeric('foo.com');            // false 
+domainNameUtil.isSubdomain('foo.com');          // false 
+domainNameUtil.matchesRegExp('foo.com', /foo/); // true 
 ```
 
 ## API
