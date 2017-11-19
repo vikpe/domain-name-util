@@ -1,4 +1,4 @@
-# Domain Name Util [![Build Status](https://travis-ci.org/vikpe/domain-name-util.svg?branch=master)](https://travis-ci.org/vikpe/domain-name-util) [![Test Coverage](https://codeclimate.com/github/vikpe/domain-name-util/badges/coverage.svg)](https://codeclimate.com/github/vikpe/iis-bardate-domains-parser/coverage)
+# Domain Name Util [![Build Status](https://travis-ci.org/vikpe/domain-name-util.svg?branch=master)](https://travis-ci.org/vikpe/domain-name-util) [![Test Coverage](https://codeclimate.com/github/vikpe/domain-name-util/badges/coverage.svg)](https://codeclimate.com/github/vikpe/domain-name-util/coverage)
 > Domain name utility functions for Node.
 
 ## Installation
