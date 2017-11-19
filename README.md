@@ -2,10 +2,30 @@
 > Domain name utility functions
 
 ## Installation
-TODO
+```bash
+npm install domain-name-util
+```
 
-## Example usage
-TODO
+## Usage
+```javascript
+import domainNameUtil from 'domain-name-util';
+
+domainNameUtil.getTopLevelDomain('foo.se'); // se
+domainNameUtil.getBaseLevelDomain('foo.se'); // foo
+domainNameUtil.getLength('foo.se'); // 3
+//...
+```
 
 ## API
-TODO
+
+* `containsAlphabetics(domainName)`
+* `containsNumerics(domainName)`
+* `getBaseLevelDomain(domainName)`
+* `getDomains(domainName)`
+* `getLength(domainName)`
+* `getTopLevelDomain(domainName)`
+* `isAlphabetic(domainName)`
+* `isHyphenated(domainName)`
+* `isNumeric(domainName)`
+* `isSubdomain(domainName)`
+* `matchesRegExp(domainName, regExp)`
