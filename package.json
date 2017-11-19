@@ -1,6 +1,6 @@
 {
   "name": "domain-name-util",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Domain name utility functions for Node.",
   "keywords": [
     "domains",
