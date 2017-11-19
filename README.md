@@ -1,5 +1,5 @@
 # Domain Name Utils
-> Domain name utility functions
+> Domain name utility functions for node.
 
 ## Installation
 ```bash
