@@ -1,5 +1,5 @@
 # Domain Name Utils [![Build Status](https://travis-ci.org/vikpe/domain-name-util.svg?branch=master)](https://travis-ci.org/vikpe/domain-name-util)
-> Domain name utility functions for node.
+> Domain name utility functions for Node.
 
 ## Installation
 ```bash
