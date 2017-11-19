@@ -19,13 +19,15 @@
   "homepage": "https://github.com/vikpe/domain-name-util",
   "scripts": {
     "test": "jest --coverage",
-    "test-watch": "jest --coverage --watch"
+    "test-watch": "jest --coverage --watch",
+    "prettier": "prettier --single-quote \"{test,index}.js\" --write --print-width 120"
   },
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "jest": "^21.2.1"
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2"
   }
 }

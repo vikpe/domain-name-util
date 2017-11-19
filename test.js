@@ -5,7 +5,6 @@
 import domainNameUtil from './index';
 
 describe('domain name util', () => {
-
   test('containsAlphabetics()()', () => {
     expect(domainNameUtil.containsAlphabetics('abc.se')).toBe(true);
     expect(domainNameUtil.containsAlphabetics('abc.def.se')).toBe(true);
