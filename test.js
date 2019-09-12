@@ -31,8 +31,11 @@ describe("domain name util", () => {
   test("getDomains()", () => {
     expect(domainNameUtil.getDomains("se")).toEqual(["se"]);
     expect(domainNameUtil.getDomains("foo.se")).toEqual(["foo", "se"]);
-    expect(domainNameUtil.getDomains("foo.bar.se")).
-      toEqual(["foo", "bar", "se"]);
+    expect(domainNameUtil.getDomains("foo.bar.se")).toEqual([
+      "foo",
+      "bar",
+      "se"
+    ]);
   });
 
   test("getLength()", () => {

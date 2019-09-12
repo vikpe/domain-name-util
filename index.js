@@ -5,18 +5,18 @@ export const regExps = {
   partlyNumeric: /\d+/g
 };
 
-export const containsAlphabetics = domainName => matchesRegExp(domainName,
-  regExps.partlyAlphabetic);
-export const containsNumerics = domainName => matchesRegExp(domainName,
-  regExps.partlyNumeric);
+export const containsAlphabetics = domainName =>
+  matchesRegExp(domainName, regExps.partlyAlphabetic);
+export const containsNumerics = domainName =>
+  matchesRegExp(domainName, regExps.partlyNumeric);
 export const getDomains = domainName => domainName.split(".");
-export const getLength = domainName => getBaseLevelDomain(domainName).
-  replace(".", "").length;
-export const isAlphabetic = domainName => matchesRegExp(domainName,
-  regExps.strictlyAlphabetic);
+export const getLength = domainName =>
+  getBaseLevelDomain(domainName).replace(".", "").length;
+export const isAlphabetic = domainName =>
+  matchesRegExp(domainName, regExps.strictlyAlphabetic);
 export const isHyphenated = domainName => domainName.includes("-");
-export const isNumeric = domainName => matchesRegExp(domainName,
-  regExps.strictlyNumeric);
+export const isNumeric = domainName =>
+  matchesRegExp(domainName, regExps.strictlyNumeric);
 export const isSubdomain = domainName => getDomains(domainName).length > 2;
 
 export const matchesRegExp = (domainName, regexp) => {
