@@ -20,7 +20,7 @@
   "scripts": {
     "test": "jest --coverage",
     "test-watch": "jest --coverage --watch",
-    "prettier": "prettier --single-quote \"{test,index}.js\" --write"
+    "prettier": "prettier \"{test,index}.js\" --write"
   },
   "main": "index.js",
   "dependencies": {},
