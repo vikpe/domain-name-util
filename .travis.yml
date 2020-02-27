@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-  - "8"
+  - 8
+  - 10
+  - 12
+  - 13
 cache:
   timeout: 3600
   directories:
