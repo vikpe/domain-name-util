@@ -36,9 +36,6 @@ jobs:
       - name: Run tests
         run: npm run test
 
-      - name: Create coverage report
-        run: npm run coverage
-
       - name: Install CodeCov
         run: npm install -g codecov
 
@@ -46,5 +43,5 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          file: lcov.info
+          file: coverage/lcov.info
           name: ${{ matrix.os }}, node ${{ matrix.node-version }}
