@@ -1,4 +1,5 @@
-# Domain Name Util [![Build Status](https://travis-ci.org/vikpe/domain-name-util.svg?branch=master)](https://travis-ci.org/vikpe/domain-name-util) [![Test Coverage](https://api.codeclimate.com/v1/badges/ae12ba695120af70a526/test_coverage)](https://codeclimate.com/github/vikpe/domain-name-util/test_coverage)
+# Domain Name Util [![test](https://github.com/vikpe/domain-name-util/workflows/test/badge.svg)](https://github.com/vikpe/domain-name-util/actions?query=workflow%3Atest) [![codecov](https://codecov.io/gh/vikpe/domain-name-util/branch/master/graph/badge.svg)](https://codecov.io/gh/vikpe/domain-name-util)
+> Mongoose plugin for tree hierarchy using the [materialized path pattern](https://docs.mongodb.com/manual/tutorial/model-tree-structures-with-materialized-paths/).
 > Domain name utility functions for Node.
 
 ## Installation
