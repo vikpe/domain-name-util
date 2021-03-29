@@ -34,7 +34,7 @@ describe("domain name util", () => {
     expect(domainNameUtil.getDomains("foo.bar.se")).toEqual([
       "foo",
       "bar",
-      "se"
+      "se",
     ]);
   });
 
