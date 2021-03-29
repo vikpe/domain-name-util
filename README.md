@@ -1,5 +1,4 @@
 # Domain Name Util [![test](https://github.com/vikpe/domain-name-util/workflows/test/badge.svg)](https://github.com/vikpe/domain-name-util/actions?query=workflow%3Atest) [![codecov](https://codecov.io/gh/vikpe/domain-name-util/branch/master/graph/badge.svg)](https://codecov.io/gh/vikpe/domain-name-util)
-> Mongoose plugin for tree hierarchy using the [materialized path pattern](https://docs.mongodb.com/manual/tutorial/model-tree-structures-with-materialized-paths/).
 > Domain name utility functions for Node.
 
 ## Installation
