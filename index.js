@@ -34,7 +34,7 @@ export const getTopLevelDomain = (domainName) => {
   return domains[domains.length - 1];
 };
 
-const module = {
+export default {
   containsAlphabetics,
   containsNumerics,
   getBaseLevelDomain,
@@ -47,5 +47,3 @@ const module = {
   isSubdomain,
   matchesRegExp,
 };
-
-export default module;
