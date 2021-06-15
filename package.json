@@ -19,8 +19,8 @@
   "homepage": "https://github.com/vikpe/domain-name-util",
   "scripts": {
     "test": "jest --coverage",
-    "test-watch": "jest --coverage --watch",
-    "prettier": "prettier \"{test,index}.js\" --write"
+    "test:watch": "jest --coverage --watch",
+    "lint": "prettier \"{test,index}.js\" --write"
   },
   "main": "index.js",
   "dependencies": {},
