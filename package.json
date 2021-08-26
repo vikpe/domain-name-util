@@ -1,6 +1,10 @@
 {
   "name": "domain-name-util",
   "version": "1.0.6",
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "description": "Domain name utility functions for Node.",
   "keywords": [
     "domains",
@@ -22,7 +26,7 @@
     "test:watch": "jest --coverage --watch",
     "lint": "prettier \"{test,index}.js\" --write"
   },
-  "main": "index.js",
+  "exports": "./index.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.14.8",
