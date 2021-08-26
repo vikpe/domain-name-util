@@ -1,6 +1,6 @@
 {
   "name": "domain-name-util",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "type": "module",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
